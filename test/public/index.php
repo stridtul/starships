@@ -44,7 +44,7 @@ $di->set(
     function () {
         $url = new UrlProvider();
 
-        $url->setBaseUri("/test/");
+        $url->setBaseUri("..");
 
         return $url;
     }
