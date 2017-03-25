@@ -14,8 +14,8 @@ $loader = new Loader();
 
 $loader->registerDirs(
     [
-        "../app/controllers/",
-        "../app/models/",
+        "/starships/test/app/controllers/",
+        "/starships/test/app/models/",
     ]
 );
 
@@ -32,7 +32,7 @@ $di->set(
     function () {
         $view = new View();
 
-        $view->setViewsDir("../app/views/");
+        $view->setViewsDir("/starships/test/app/views/");
 
         return $view;
     }
