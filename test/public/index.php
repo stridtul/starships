@@ -20,10 +20,10 @@ try {
     // Set the database service
     $di['db'] = function() {
         return new DbAdapter(array(
-            "host"     => "localhost",
-            "username" => "root",
-            "password" => "secret",
-            "dbname"   => "tutorial"
+            "host"     => "",
+            "username" => "",
+            "password" => "",
+            "dbname"   => ""
         ));
     };
     // Setting up the view component
