@@ -35,7 +35,7 @@ try {
     // Setup a base URI so that all generated URIs include the "tutorial" folder
     $di['url'] = function() {
         $url = new Url();
-        $url->setBaseUri('/test/');
+        $url->setBaseUri('/starships/test/');
         return $url;
     };
     // Setup the tag helpers
