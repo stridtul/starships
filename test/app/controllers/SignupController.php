@@ -4,6 +4,7 @@ class SignupController extends Controller
 {
     public function indexAction()
     {
+        echo "aaa";
     }
     public function registerAction()
     {
