@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Tulkas
- * Date: 3/25/2017
- * Time: 2:11 PM
- */
+
+use Phalcon\Mvc\Controller;
+
+class IndexController extends Controller
+{
+    public function indexAction()
+    {
+        echo "<h1>Hello!</h1>";
+    }
+}
