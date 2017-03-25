@@ -44,7 +44,7 @@ $di->set(
     function () {
         $url = new UrlProvider();
 
-        $url->setBaseUri("..");
+        $url->setBaseUri("/starships/test");
 
         return $url;
     }
