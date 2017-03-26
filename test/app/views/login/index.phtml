@@ -1,0 +1,19 @@
+<h2>Login using this form</h2>
+
+<?php echo $this->tag->form('signup/register') ?>
+
+<p>
+    <label for="name">Name</label>
+    <?php echo $this->tag->textField("name") ?>
+</p>
+
+<p>
+    <label for="pass">Password</label>
+    <?php echo $this->tag->passwordField("pass") ?>
+</p>
+
+<p>
+    <?php echo $this->tag->submitButton("Register") ?>
+</p>
+
+</form>

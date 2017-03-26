@@ -5,7 +5,7 @@ class SignupController extends Controller
     public function indexAction()
     {
     }
-    public function registerAction()
+    public function loginAction()
     {
         $user = new Users();
         // Store and check for errors
