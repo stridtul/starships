@@ -12,7 +12,7 @@ class SignupController extends Controller
         // Store and check for errors
         $success = $user->save(
             $this->request->getPost(),
-            array('name', 'email')
+            array('name', 'pass')
         );
         if ($success) {
             echo "Thanks for registering!";
